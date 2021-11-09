@@ -1,0 +1,181 @@
+/* fonts */
+@import url('https://fonts.googleapis.com/css2?family=ABeeZee&family=Patrick+Hand&display=swap');
+
+/* assignment 2*/
+body.ass2{ background-color: rgb(186, 236, 223)
+}
+#assignmentname{ color: #40531b}
+
+p em{background-color: rgb(100, 237, 203); color:black}
+.highlight{ background-color:rgb(228, 50, 50)}
+#highlight{ background-color:rgb(228, 50, 50)}
+
+
+/* assignment 3*/ 
+body.ass3{
+    background-color: skyblue;
+    background-image: url("images/pexels-ann-h-1762851.jpg"); 
+    background-size: cover;
+}
+body.ass3 nav {background-color: rgb(123, 214, 250);}
+body.ass3 ol {
+    list-style-type:lower-roman;
+    font-family: 'ABeeZee', sans-serif;
+}
+body.ass3 figcaption {font-weight: bold;}
+body.ass3 h1 {font-family: 'Patrick Hand', cursive; }
+
+/* assignment 4 */ 
+body.ass4 {
+    background-color: aliceblue;
+    background-image: url("images/unsplash.jpg");
+    background-size: cover;
+    width: 1200px;
+    font-family: 'ABeeZee', sans-serif;
+    font-size: 20px;
+    margin-left: 1in;
+    margin-right: 1in;
+}
+body.ass4 h1 {font-family: 'Patrick Hand', sans-serif; }
+body.ass4 h2 {font-family: 'Patrick Hand', sans-serif; font-size: 30px; }
+
+/* assignment 5 */
+body.ass5{
+    font-family: Arial, "Helvetica", sans-serif;
+    /* Adjusted font size as it wasn't a useable measurement */
+    font-size: 16pt;
+    font-weight: 500;
+    color: #443235;
+}
+body.ass5 main{
+    padding-left: 8rem;
+    padding-right: 8rem;
+    padding-bottom: 8rem;
+}
+body.ass5 header{
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+body.ass5 nav div {
+    padding-left: 8rem;
+    padding-right: 8rem;
+}
+nav.ass5{
+    background-color: #e3e2df; 
+}
+.instructions {border: 1px solid black;
+    padding-top: 3rem;
+    padding: 3rem;
+    border-radius: 1.5rem; 
+    background-color: #e3e2df; 
+    box-shadow: 0px 50px 30px -15px rgb(175, 174, 174);
+}
+.green-italic-text {
+    text-indent: 3em;
+    font-style: italic;
+    color: cornflowerblue;
+}
+.introduction {
+    padding-top: 2rem;
+    padding-bottom: 4rem;
+    text-align: center;
+}
+
+.LIST { font-weight: 500; }
+
+
+
+/*  Assignment 6  */
+body.ass6{
+    font-family: sans-serif;
+    margin: 0;
+    color: #191645;
+}
+
+header { 
+    padding: 15px; 
+    width: 800px;
+    margin: auto;
+}
+
+header.flex-container-head{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    gap: 15px
+}
+
+nav {
+    background-color: #f3f3f4;
+}
+nav .wrapper {
+    width: 800px;
+    margin: auto;
+}
+nav ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+    margin: 0;
+    padding: 0;
+}
+
+nav li a { 
+    padding: 15px;
+    display: inline-block;
+    text-decoration: none;
+    color: #191645;
+}
+
+nav li a:hover{
+    background-color: #43C6Ac;
+    color: white;
+}
+
+section.flex-container-body{
+    display: flex; 
+    justify-content: space-between;
+    flex-direction: row;
+}
+
+article.flex-item-body{
+    flex-basis: 55%;
+    display: inline-block;
+    width: min-content;
+}
+article.flex-item-body figure{
+    margin: 0;
+}
+
+aside.flex-item-body{
+    padding: 15px;
+    display: flex;
+    flex-basis: 40%;
+    flex-wrap: wrap;
+    border: solid #43C6Ac 1px;
+    box-sizing: border-box;
+    align-content: start;
+}
+
+aside p{
+    margin-top: 20%;
+}
+
+main {
+    padding: 15px;
+    width: 800px;
+    margin: auto;
+}
+
+div.wrapper{
+    width: 800px;
+    margin: 0 auto;
+    gap: 15px;
+}
+
+footer{
+    background-color: #191645;
+    color:white;
+    padding: 15px;
+    margin:0;
+}
