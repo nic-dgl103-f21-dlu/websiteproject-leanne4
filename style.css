@@ -1,35 +1,56 @@
-/* Options for pages*/
-@import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Philosopher&display=swap');
+/* collective items*/
+    @import url('https://fonts.googleapis.com/css2?family=Berkshire+Swash&family=Philosopher&display=swap');
+
+    body {
+        background-color: rgb(24, 24, 24);
+    }
+
+/*navigation*/
+    nav a {
+        font-family: 'Philosopher', sans-serif;
+        font-size: 20px;
+        text-decoration: none;
+        color: floralwhite;
+        margin: 1em;
+        float: right;
+    }
+
+    nav a:hover {
+        color: rgb(116, 74, 182);
+    }
+    .ddmenu{
+        float: right;
+        position: relative;
+    }
+    button {
+        border: none;
+        background: transparent;
+        background-repeat: no-repeat;
+        outline: none;
+    }
+
+    .ddmenucontent {
+        display: none;
+        position: absolute;
+        
+    }
+
+    .ddmenucontent a {
+        display: block;
+    }
+    .ddmenu:hover .ddmenucontent {
+        background: none;
+        text-decoration: none;
+        display: block;
+        color: floralwhite;
+
+    }
 
 /*index*/
-body {
-    font-family: 'Philosopher', sans-serif
-
-}
-.ddmenu{
-    position: relative;
-    display: inline-block;
-}
-
-.ddmenucontent {
-    display: none;
-    position: absolute;
-    min-width: 160px;
-    z-index: 1;
-  }
-
-.ddmenucontent a {
-    display: block;
-}
-.ddmenu:hover .ddmenucontent { 
-    text-decoration: none;
-    display: block;
-
-}
-
-
 
 /*home*/
+
+
 /*shop*/
 /*updates*/
 /*contact*/
