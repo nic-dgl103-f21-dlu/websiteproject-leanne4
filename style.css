@@ -10,16 +10,19 @@
         font-family: 'Philosopher', sans-serif;
         font-size: 20px;
         text-decoration: none;
+        list-style-type: none;
         color: floralwhite;
-        margin: 1em;
-        float: right;
+        margin: 0;
+        padding: 0;
+        display: row;
+        
     }
 
     nav a:hover {
         color: rgb(116, 74, 182);
     }
     .ddmenu{
-        float: right;
+
         position: relative;
     }
     button {
