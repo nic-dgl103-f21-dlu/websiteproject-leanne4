@@ -6,6 +6,14 @@
     }
 
 /*navigation*/
+    nav ul {
+        list-style-type: none;
+        display: flex;
+        justify-content: flex-end;
+        margin: 0;
+        padding: 0;
+    }
+
     nav a {
         font-family: 'Philosopher', sans-serif;
         font-size: 20px;
@@ -17,12 +25,15 @@
         display: row;
         
     }
+    nav li{
+        padding-left: 1rem;
+        padding-right: 1rem;
+    }
 
     nav a:hover {
         color: rgb(116, 74, 182);
     }
     .ddmenu{
-
         position: relative;
     }
     button {
@@ -46,9 +57,18 @@
         text-decoration: none;
         display: block;
         color: floralwhite;
-
+        padding-left: 1.4rem;
     }
 
+/*Footer*/
+footer {
+    font-family: "Philosopher" sans-serif;
+    font-size: 18px;
+    color: floralwhite;
+    display: flex;
+    margin: 3px;
+    padding: 2px;
+}
 /*index*/
 
 /*home*/
