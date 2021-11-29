@@ -39,23 +39,22 @@
     <div class="flex-container">
         <div class="wrapper-login-form">
             <div class="form-container">
-        <h1>Login</h1>
-        <form method="post" action="login.html">
-            <label for="usern">Username</label>
-            <input type="text" id="usern" name="username">
+                <h1>Login</h1>
+                <form method="post" action="login.html">
+                    <label for="usern">Username</label>
+                    <input type="text" id="usern" name="username">
 
-            <label for="pword">Password</label>
-            <input type="password" id="pword" name="password">
+                    <label for="pword">Password</label>
+                    <input type="password" id="pword" name="password">
 
-            <label for="remember">Remember me</label>
-            <input type="checkbox" id="remember" name="remember-me">
+                    <label for="remember">Remember me</label>
+                    <input type="checkbox" id="remember" name="remember-me">
 
-            <button type="submit">Login</button>
-
-            <div class="wrapper-submit-button">
-                <input type="reset" value="Reset">
-            </div>
-        </form>
+                    <!-- inline CSS because it is one off-->
+                    <div style="display: flex;">
+                        <div style="width:100%; padding-right: 1rem;"><input class="wrapper-login-form-button" type="reset" value="Reset"></div><div style="width:100%;"><button class="wrapper-login-form-button" type="submit">Login</button></div>
+                    </div>
+                </form>
             </div>
         </div>
     </div>
