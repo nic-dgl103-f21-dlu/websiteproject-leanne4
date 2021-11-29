@@ -66,6 +66,9 @@
         padding-inline-start: 0px;
     }
 
+    .table-top-padding{
+        padding-top: 50px;
+    }
 
 /*navigation*/
     nav ul {
@@ -247,7 +250,29 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     font-size: 20px;
 }
 
+.updates-grid{
+    display: grid;
+    overflow: hidden;
+    grid-template-columns: 35% 65%;
+    grid-column-gap: 10px;
+    
+}
+.updates-grid-flex-left{
+    display: flex;
+    max-width: 400px;
+    flex-wrap: wrap;
+    justify-content: center;
+}
 
+/*max-width set to 99% because to strange clipping on text*/
+.updates-grid-flex-right{
+    display: flex;
+    max-width: 99%;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-content: center;
+    box-sizing: border-box;
+}
 
 /*contact*/
 .wrapper-contact-form{
