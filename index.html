@@ -19,13 +19,16 @@
         <ul>
             <li><a href="index.html">Home</a></li>
             <li><a href="login.html">Login</a></li>
-            <div class="ddmenu">
-            <li><a href="shop.html"><button>Shop</button></a></li>
-                <div class="ddmenucontent">
-                    <a href="shop.html#jewelry">Jewelry</a>
-                    <a href="shop.html#crystals">Crystals</a>
+            
+            <li>
+                <div class="ddmenu">
+                    <a href="shop.html">Shop</a>
+                    <div class="ddmenucontent">
+                        <a href="shop.html#jewelry">Jewelry</a>
+                        <a href="shop.html#crystals">Crystals</a>
+                    </div>
                 </div>
-            </div>
+            </li>
             <li><a href="mphprop.html">Metaphysical and Herbal Properties</a></li>
             <li><a href="updates.html">Updates</a></li>
             <li><a href="contact.html">Contact</a></li>
@@ -33,17 +36,23 @@
         </div>
     </nav>
     <main>
-        <a href="shop.html"><h1>New Jewelry</h1></a>
-        <ul>
-            <li><img src="images/necklace1.jpg" width="300px" alt="Hand made copper necklace with black Tourmaline, Turqoise and Tigers Eye inlay."><figcaption>Black Tourmaline with Turquoise and Tiger Eye inlay.</figcaption></li>
-            <li><img src="images/necklace2.jpg" width="300px" alt="Hand made copper necklace with black Tourmaline embeded in Smokey Quartz with Amethyst inlay"><figcaption>Black Tourmaline in Smokey Quartz with Amethyst inlay</figcaption></li>
-            <li><img src="images/necklace3.jpg" width="300px" alt="Hand made copper necklace with Smokey Quartz and raw Opal inlay"><figcaption>Smokey Quartz with raw Opal inlay</figcaption></li>
-            <li><img src="images/necklace4.jpg" width="300px" alt="Hand made copper necklace with dark Smokey Quartz"><figcaption>Dark black Smokey Quartz</figcaption></li>
-            <li><img src="images/necklace5.jpg" width="300px" alt="Hand made copper necklace with Amethyst and black Tourmaline"><figcaption>Amethyst and black Tourmaline embeded in copper.</figcaption></li>
+        <h1>New Jewelry</h1>
+        <ul class="flex-list">
+            <li class="flex-list-item"><img class="rounded-pic" src="images/necklace1.jpg" width="300" alt="Hand made copper necklace with black Tourmaline, Turqoise and Tigers Eye inlay."><p class="caption">Black Tourmaline with Turquoise and Tiger Eye inlay.</p></li>
+            <li class="flex-list-item"><img class="rounded-pic" src="images/necklace2.jpg" width="300" alt="Hand made copper necklace with black Tourmaline embeded in Smokey Quartz with Amethyst inlay"><p class="caption">Black Tourmaline in Smokey Quartz with Amethyst inlay</p></li>
+            <li class="flex-list-item"><img class="rounded-pic" src="images/necklace3.jpg" width="300" alt="Hand made copper necklace with Smokey Quartz and raw Opal inlay"><p class="caption">Smokey Quartz with raw Opal inlay</p></li>
+            <li class="flex-list-item"><img class="rounded-pic" src="images/necklace4.jpg" width="300" alt="Hand made copper necklace with dark Smokey Quartz"><p class="caption">Dark black Smokey Quartz</p></li>
+            <li class="flex-list-item"><img class="rounded-pic" src="images/necklace5.jpg" width="300" alt="Hand made copper necklace with Amethyst and black Tourmaline"><p class="caption">Amethyst and black Tourmaline embeded in copper.</p></li>
         </ul>
-        <img src="images/owner.jpg" alt="Picture of the owner of Snow Raven's Garden, Amie, holding a bushel of rainbow chard" width="500px" height="700px"><figcaption>Owner, Amie, taking a picture from above her head with a bundle of rainbow Chard under her right arm.</figcaption>
         <h2>Snow Raven's Garden</h2>
-        <p> Approximately 24 years ago, Amie moved to Alaska. She soon fell in love with the Alaskan landscapes and decided the beautiful wilderness would forever be her home. An independant, female owned business. Snow Raven's Garden strives to provide beautiful one of a kind jewelery that is made with the best intentions imbued during creation. All crystals, herbs, and kit items are obtained ethically and keeping the enviornment in mind.</p>
+        <div class="flex-list-index">
+            <div style="max-width: 500px;">
+                <p> Approximately 24 years ago, Amie moved to Alaska. She soon fell in love with the Alaskan landscapes and decided the beautiful wilderness would forever be her home. An independant, female owned business. Snow Raven's Garden strives to provide beautiful one of a kind jewelery that is made with the best intentions imbued during creation. All crystals, herbs, and kit items are obtained ethically and keeping the enviornment in mind.</p>
+            </div>
+            <div style="max-width: 500px;">
+                <img class="rounded-pic" src="images/owner.jpg" alt="Picture of the owner of Snow Raven's Garden, Amie, holding a bushel of rainbow chard" width="500" height="700"><figcaption>Owner, Amie, taking a picture from above her head with a bundle of rainbow Chard under her right arm.</figcaption>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">

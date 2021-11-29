@@ -33,6 +33,38 @@
     {
         padding:20px
     }
+    .caption
+    {
+        opacity: 0.3;
+        font-style: normal;
+        text-align: center;
+    }
+
+    .flex-list
+    {
+        flex-direction: row;
+        display:flex;
+        justify-content: space-between; 
+        flex-wrap: wrap; 
+        align-items: center;
+        justify-content: center;
+    }
+
+    .flex-list-item
+    {
+        max-width: 300px;
+        padding: 30px;
+    }
+
+    .rounded-pic
+    {
+        border-radius: 50%;
+    }
+
+    ul
+    {
+        padding-inline-start: 0px;
+    }
 
 
 /*navigation*/
@@ -85,7 +117,6 @@
         background: none;
         text-decoration: none;
         display: block;
-        padding-left: 1.4rem;
     }
 
 
@@ -132,8 +163,13 @@
 .home-page main li {
     display: inline-block;
 }
-.home-page main li figcaption {
-    font-style: normal;
+
+.flex-list-index{
+    flex-direction: row;
+    display:flex;
+    flex-wrap: wrap; 
+    justify-items: center;
+    justify-content: center;
 }
 
 /*login*/
