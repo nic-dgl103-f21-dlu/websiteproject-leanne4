@@ -135,8 +135,12 @@
         padding: 1.4rem;
     }
 /*index*/
-
-/*home*/
+.home-page main li {
+    display: inline-block;
+}
+.home-page main li figcaption {
+    font-style: normal;
+}
 
 /*login*/
 .flex-container {
@@ -195,6 +199,12 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
 .shop-page main li{
     display: inline-block;
     list-style: none;
+}
+.shop-page figcaption {
+    font-size: 17px;
+    opacity: 1;
+    font-style:normal;
+    color: floralwhite;
 }
 
 /*mphprop*/
