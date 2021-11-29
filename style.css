@@ -4,6 +4,7 @@
     body {
         background-color: rgb(24, 24, 24);
         color: floralwhite;
+        font-size: 18px;
     }
     h1{
         padding-top: 30px;
@@ -182,6 +183,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     margin-top: 5px;
     font-size: 18px;
     background-color: #8a66ce;
+    color: floralwhite;
     font-family: 'Philosopher';
     border-radius: 10px;
 }
@@ -191,7 +193,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     margin: 8px 0;
     background-color: #8a66ce;
     font-size: 18px;
-    color: rgb(24, 24, 24);
+    color: floralwhite;
     border-radius: 10px;
     font-family: 'Philosopher';
 }
@@ -202,7 +204,7 @@ input[type=text], input[type=password], input[type=email], input[type=tel], text
     list-style: none;
 }
 .shop-page figcaption {
-    font-size: 17px;
+    font-size: 20px;
     opacity: 1;
     font-style:normal;
     color: floralwhite;
