@@ -4,7 +4,7 @@
     body {
         background-color: rgb(24, 24, 24);
         color: floralwhite;
-        font-size: 18px;
+        font-size: 18px; /* made full body font larger to make it slightly more accessibility friendly. Despite having fairly good eyes I struggled seeing anything around 16 px*/
     }
     h1{
         padding-top: 30px;
@@ -57,7 +57,7 @@
         max-width: 300px;
         padding: 30px;
     }
-    .rounded-pic
+    .rounded-pic /*rounded all of the pictures to make them coheesive and make it all a little more interesting than plain squares*/
     {
         border-radius: 50%;
     }
@@ -69,7 +69,7 @@
         padding-top: 50px;
     }
 
-    .header-banner
+    .header-banner /* orriginally the banner wasn't adjusting for smaller screens. added several adjustments within css to make that happen*/
     {
         object-fit: cover;
         object-position: center;
@@ -98,7 +98,7 @@
         flex-direction: row;
     }
 
-    @media screen and (max-width: 700px) {
+    @media screen and (max-width: 700px) { /*makes sure nav bar collapses into a column for smaller screens making sure its functional and accessible on mobile*/
         nav ul {   
           flex-direction: column;
         }
@@ -138,7 +138,7 @@
         .ddmenucontent {
             visibility: hidden;
             position: absolute;
-            transition: visibility 1.5s;
+            transition: visibility 1.5s; /*adds a slight delay before the hover over list shrinks back. Allowing for anyone who may be shakey or have delayed reactions to pick and area*/
             display: flex;
             flex-direction: column;  
         }
@@ -228,6 +228,7 @@
     }
 
 /*login*/
+ /* I know the login is sort of pointless without java but I really wanted to have it. */
     .flex-container {
         padding-top: 50px;
         padding-bottom: 50px;
@@ -278,12 +279,6 @@
         display: inline-block;
         list-style: none;
     }
-    .shop-page figcaption {
-        font-size: 20px;
-        opacity: 1;
-        font-style:normal;
-        color: floralwhite;
-    }
 
 /*mphprop*/
     .mphp-page th {
@@ -296,10 +291,8 @@
     }
 
 /*updates*/
-    .updates-page table {
-        font-size: 20px;
-    }
-    .updates-grid{
+    /*this entire page is one of my favourites for switching between large and small screens. It's extremely responsive, including the pictures!*/
+    .updates-grid{ /*grid worked better than a table for this area. it over all just aligned better*/
         display: grid;
         overflow: hidden;
         grid-template-columns: 35% 65%;
@@ -331,6 +324,7 @@
     }
 
 /*contact*/
+    /* i know this page is much like the login page but I felt it made sense to have one where you can just directly contact SRG. Even if it doesn't work without java*/
     .wrapper-contact-form{
         display: block;
         font-size: 20px;
