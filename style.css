@@ -77,6 +77,17 @@
         width: 100%;
     }
 
+    .wrapper-submit-button{
+        display: flex;
+    }
+    .button-left{
+        width:100%; 
+        padding-right: 1rem;
+    }
+    .button-right{
+        width:100%; 
+    }
+
 /*navigation*/
     nav ul {
         list-style-type: none;
@@ -84,7 +95,15 @@
         justify-content: flex-end;
         margin: 0;
         padding: 0;
+        flex-direction: row;
     }
+
+    @media screen and (max-width: 700px) {
+        nav ul {   
+          flex-direction: column;
+        }
+    }
+
     nav a {
         font-family: 'Philosopher', sans-serif;
         font-size: 20px;
@@ -100,30 +119,61 @@
         padding-right: 1rem;
     }
 
+    @media screen and (max-width: 700px) {
+        nav li {   
+            padding-top: 10px;
+            padding-bottom: 10px;
+        }
+    }
+
     nav a:hover {
         color: #8a66ce;
     }
     .ddmenu{
         position: relative;
-    }
-    button {
-        border: none;
-        background: transparent;
-        background-repeat: no-repeat;
-        outline: none;
-    }
-    .ddmenucontent {
-        display: none;
-        position: absolute;
         
     }
-    .ddmenucontent a {
-        display: block;
+
+    @media screen and (min-width: 701px) {
+        .ddmenucontent {
+            visibility: hidden;
+            position: absolute;
+            transition: visibility 1.5s;
+            display: flex;
+            flex-direction: column;  
+        }
+        .ddmenu:hover .ddmenucontent {
+            background: none;
+            text-decoration: none;
+            visibility: visible;
+            display: flex;
+            flex-direction: column;  
+            transition: visibility 0s;
+        }
     }
-    .ddmenu:hover .ddmenucontent {
-        background: none;
-        text-decoration: none;
-        display: block;
+    @media screen and (max-width: 700px) {
+        .ddmenucontent {
+            visibility: hidden;
+            position: absolute;
+            display: flex;
+            flex-direction: row;
+            top: 0px;
+            left: 60px;
+            transition: visibility 1.5s;
+        }
+        .ddmenu:hover .ddmenucontent {   
+            background: none;
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            top: 0px;
+            left: 60px;
+            visibility: visible;
+            transition: visibility 0s;
+        }
+        .ddmenu .ddmenucontent a{
+            padding-right: 20px;
+        }
     }
 
 /*Footer*/
