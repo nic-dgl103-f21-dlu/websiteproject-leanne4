@@ -6,11 +6,6 @@
         color: floralwhite;
         font-size: 18px;
     }
-    @media screen and (max-width: 700px) {
-        header, .navbar {   
-          flex-direction: column;
-        }
-      }
     h1{
         padding-top: 30px;
         text-align: center;
@@ -26,6 +21,10 @@
         text-align: center;
         font-family: 'Berkshire+Swash', sans-serif;
     }
+    .centered-text-no-font{
+        text-align: center;
+    }
+
     .v-centered-pic
     {
         vertical-align:middle
@@ -68,6 +67,14 @@
     }
     .table-top-padding{
         padding-top: 50px;
+    }
+
+    .header-banner
+    {
+        object-fit: cover;
+        object-position: center;
+        height: 250px;
+        width: 100%;
     }
 
 /*navigation*/
@@ -129,33 +136,32 @@
         justify-content:center ;
         opacity: 0.8;
     }
+    .fhead{
+        font-family: "Philosopher";
+        width: 100%;
+        text-align: center;
+        opacity: 0.8;
+    }
+
     .footer ul {
         padding: 0;
         list-style: none;
         line-height: 1.6;
         margin-bottom: 0;    
     }
-    .footer ul a {
+    footer a {
+        font-family: "Philosopher";
         color: inherit;
         text-decoration: none;
     }
-    .footer ul a:hover {
+    footer a:hover {
+        font-family: "Philosopher";
         opacity: 1;
         color: #8a66ce;
     }
-    .footer .list1 {
-        padding: 1.4rem;
-    }
-    .footer .list2 {
-        padding: 1.4rem;
-    }
-    .footer .socials {
-        padding: 1.4rem;
-    }
-    .icons a {
-        text-decoration: none;
-        color: inherit;
-        padding: 1.4rem;
+    .section-padding{
+        padding-left: 1.4rem;
+        padding-right: 1.4rem;
     }
 /*index*/
     .home-page main li {
@@ -252,7 +258,7 @@
     }
     .updates-grid-flex-left{
         display: flex;
-        max-width: 400px;
+        max-width: 500px;
         flex-wrap: wrap;
         justify-content: center;
     }
@@ -265,6 +271,13 @@
         justify-content: flex-start;
         align-content: center;
         box-sizing: border-box;
+    }
+
+    .updates-image-scaling{
+        object-fit: contain;
+        object-position: center;
+        border-radius: 50%;
+        max-width:100%;
     }
 
 /*contact*/
